@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Czech Speech Synthesis Examples</title>
+<style>
+  body { font-family: system-ui, Arial, sans-serif; max-width: 960px; margin: 0 auto; padding: 16px; line-height: 1.5; color: #222; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: left; vertical-align: middle; }
+  thead th { background: #f0f0f0; }
+  tbody tr:nth-child(even) { background: #fafafa; }
+  tr.real { background: #eef6ff !important; }
+  audio { width: 260px; max-width: 100%; }
+  .nowrap { white-space: nowrap; }
+  @media (max-width: 640px) { audio { width: 200px; } th, td { padding: 6px; } }
+</style>
+</head>
+<body>
+
+<h1>Czech Speech Synthesis Examples</h1>
+
+<p>Illustrative sentences from the listening test, each synthesised by a different
+speech synthesis system. The first row is a real recording for reference.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>System</th>
+      <th>Sentence</th>
+      <th>Audio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="real">
+      <th>Real speech (reference)</th>
+      <td><i>&ndash;</i></td>
+      <td><audio controls preload="none" src="audio/real_MasRa.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>TTSMaker</th>
+      <td><i>V pondělí proběhne nutná revize všech spotřebičů.</i></td>
+      <td><audio controls preload="none" src="audio/veta0001_TTSMaker.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>Narakeet</th>
+      <td><i>Podle románu by měl vzniknout i film.</i></td>
+      <td><audio controls preload="none" src="audio/veta0101_Narakeet.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>Eleven multilingual v2</th>
+      <td><i>Je už ta pec dostatečně rozpálená?</i></td>
+      <td><audio controls preload="none" src="audio/veta0258_Elevenv2.mp3"></audio></td>
+    </tr>
+    <tr>
+      <th>Eleven v3</th>
+      <td><i>Nikomu o tom tajemství neříkej!</i></td>
+      <td><audio controls preload="none" src="audio/veta0365_Elevenv3.mp3"></audio></td>
+    </tr>
+    <tr>
+      <th>eSpeakNG</th>
+      <td><i>Situaci velmi intenzivně monitorujeme.</i></td>
+      <td><audio controls preload="none" src="audio/veta0412_eSpeakNG.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>OmniVoice</th>
+      <td><i>Která vůně v tobě spolehlivě probudí nostalgii?</i></td>
+      <td><audio controls preload="none" src="audio/veta0565_OmniVoice.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>PiperTTS</th>
+      <td><i>V opačném případě se jedná o kružnici.</i></td>
+      <td><audio controls preload="none" src="audio/veta0603_PiperTTS.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>CoquiTTS</th>
+      <td><i>Mezi oběma bratry vypukl spor.</i></td>
+      <td><audio controls preload="none" src="audio/veta0707_CoquiTTS.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>GoogleTTS</th>
+      <td><i>Znáš pověst o pokladu skrytém pod nedalekou skálou?</i></td>
+      <td><audio controls preload="none" src="audio/veta0808_GoogleTTS.mp3"></audio></td>
+    </tr>
+    <tr>
+      <th>WinRT</th>
+      <td><i>O víkendu jdeme na velký hudební festival.</i></td>
+      <td><audio controls preload="none" src="audio/veta0903_WinRT.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>SpeechT5</th>
+      <td><i>čili umělec chtě, nechtě musí, ať se nám to líbí nebo ne, reagovat.</i></td>
+      <td><audio controls preload="none" src="audio/veta1008_SpeechT5.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>Hasp (Interspeech 2015)</th>
+      <td><i>Soud uložil státu zjednat nápravu a stát to vzal vážně.</i></td>
+      <td><audio controls preload="none" src="audio/veta1034_Hasp.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>VITS (ondrarot)</th>
+      <td><i>nechtějte však po ní, aby vám to potvrdila.</i></td>
+      <td><audio controls preload="none" src="audio/veta1058_VITSOR.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>LSTM (AndJa)</th>
+      <td><i>Zácpy se zde tvořily už v minulých dnech.</i></td>
+      <td><audio controls preload="none" src="audio/veta1102_LSTM.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
